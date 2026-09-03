@@ -6,7 +6,7 @@ pipeline {
     }
 
     environment {
-        DEPLOY_DIR = '/usr/share/nginx/html'
+        DEPLOY_DIR = '/usr/share/nginx/html/my-board-project-vue'
     }
 
     stages {
