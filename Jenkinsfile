@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     tools {
-        nodejs 'node24'   // Jenkins Tools에 등록한 이름과 동일하게
+        nodejs 'NodeJS24'   // Jenkins Tools에 등록한 이름과 동일하게
     }
 
     environment {
